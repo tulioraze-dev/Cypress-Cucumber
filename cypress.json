@@ -1,4 +1,4 @@
 {  
     "testFiles": "**/*.feature",
-    "baseUrl": "https://kylbutlr-calculator.herokuapp.com/"
+    "baseUrl": "https://kylbutlr-calculator.herokuapp.com"
 }
