@@ -1,0 +1,20 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Treinamento de Cypress com Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Tulio R. Azevedo",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.5.2"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
